@@ -24,5 +24,10 @@ int main(){
     struct Pokemon *moltres = new_pokemon(rand()%100+1,"Moltres");
     poke_print(moltres);
 
-
+    free(poke_1);
+    free(mew);
+    free(mewtwo);
+    free(articuno);
+    free(zapdos);
+    free(moltres);
 }
